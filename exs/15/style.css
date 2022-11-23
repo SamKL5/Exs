@@ -1,0 +1,120 @@
+ .vert-menu {
+    list-style: none;
+    margin: none;
+    padding: none;
+}
+.vert-menu a:hover{
+    color: white;
+}
+ul.vert-menu a{
+    display: block;
+    width: 150px;
+    height: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9db9dd;
+    border-radius: 10px;
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 13px;
+    margin-bottom: 10px;
+}
+hr{
+    border: 1px solid;
+    margin-top: 30px;
+}
+.hor > div a{
+    display: block;
+    width: 150px;
+    height: 23px;
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9db9dd;
+    border-radius: 10px;
+    text-align: center;
+}
+.hor > div a:hover{
+    background-color: #496db9;
+    color: white;
+}
+.f{
+    margin-top: -3px;
+    padding-top: 13px;
+    margin-left: 30px;
+}
+.s{
+    margin-left: 220px;
+    margin-top: -43px;
+}
+.th{
+    margin-top: -43px;
+    margin-left: 410px;
+}
+.fourth{
+    margin-left: 600px;
+    margin-top: -43px;
+}
+a {
+    padding: 10px 15px;
+    text-decoration: none;
+    outline: none;
+    color: black;
+  }
+.top-menu{
+    text-decoration: none;
+    top: 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.top-menu > li a{
+    width: 140px;
+    height: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9db9dd;
+    border-radius: 10px;
+    padding-top: 13px;
+    text-align: center;
+  }
+.container{
+    position: absolute;
+    height: 300px;
+}
+.top-menu > li:hover .sub-menu{
+    display: block;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+.top-menu .sub-menu{
+    position: absolute;
+    display: none;
+    margin-left: -40px;
+    margin-top: 13px;
+}
+.q{
+    margin-top: -3px;
+    padding-top: 13px;
+    margin-left: -10px;
+}
+.w{
+    margin-left: 170px;
+    margin-top: -43px;
+}
+.r{
+    margin-top: -44px;
+    margin-left: 350px;
+}
+.t{
+    margin-left: 530px;
+    margin-top: -43px;
+}
+.sub-menu > li{
+    margin-top: 5px;
+}
