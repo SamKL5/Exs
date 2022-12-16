@@ -13,7 +13,6 @@
     <?php
     include('db.php');
     if($mysql = connectDb()){
-
     ?>
 <header class="header">
     <nav class="navbar navbar-expand-lg fixed-top ">
